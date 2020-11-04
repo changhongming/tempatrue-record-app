@@ -1,0 +1,16 @@
+:root {
+  --yelow-green: #D7FFAB;
+  --beau-blue: #c1d634;
+  --laser-lemon: #fcff6c;
+  --tan: #d89d6a;
+  --eggpiant: #6d454c
+}
+
+.test-css-loader {
+  background-color: var(--yelow-green);
+  color: #555555;
+}
+
+.large-content {
+  /* height: 12000px; */
+}

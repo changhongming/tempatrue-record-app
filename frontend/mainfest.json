@@ -1,0 +1,11 @@
+{
+  "name": "Temperature Record",
+  "short_name": "temp-record",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "A Temperature Record App",
+  "related_applications": [{
+    "platform": "web"
+  }]
+}

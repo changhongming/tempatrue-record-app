@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="csrf-token" content="<%= htmlWebpackPlugin.options.csrf %>"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+  <title>Cloud Temperature Record</title>
+<style>
+  body {
+    overscroll-behavior-y: contain;
+  }
+</style>
+</head>
+
+<body>
+  <!-- <nav></nav>
+  <div class="test-css-loader">
+    <p>test css loader</p>
+  </div> -->
+  <div id="app">
+    <home/>
+    <nav-router />
+  </div>
+</body>
+
+</html>
